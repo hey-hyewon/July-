@@ -8,7 +8,7 @@ user_input = input("Press enter to continue...")
 while user_input:
     print("You didn't press enter. Please try again.")
     user_input = input("Press enter to continue...")
-if not user_input:
+if user_input == "":
     if answer in ["Julio", "julio", "JULIO"]:
         print("Correct! Julio is July in Spanish.")
     else:
